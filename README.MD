@@ -1,16 +1,108 @@
-Rosalind Bioinformatics Problems — Python Solutions
+Rosalind Bioinformatics Solutions
 
-This repository contains my solutions to problems from Rosalind
-, a platform designed to build computational thinking skills in bioinformatics.
-The goal of this repo is not just to “solve problems,” but to develop a strong foundation in:
+This repository contains my Python solutions to selected problems from the Rosalind Bioinformatics Stronghold.
 
-1.Algorithmic thinking
+The problems are organized according to the computational concepts they teach rather than simply listing them in the order solved. The goal is to build a structured understanding of the algorithms and biological logic used in bioinformatics.
 
-2.Biological sequence analysis
+Repository Structure
 
-3.Python-based data processing
+The repository is divided into four learning stages:
 
-4.Clean and structured code design
+01_sequence_manipulation
+02_basic_algorithms
+03_bioinformatics_specific_problems
+04_advanced_algorithms
+
+This structure reflects the progression from basic sequence operations to more complex biological and algorithmic problems.
+
+1. Sequence Manipulation
+
+Core operations performed on DNA and RNA sequences.
+
+Problems:
+
+DNA – Counting DNA nucleotides
+
+RNA – DNA → RNA transcription
+
+REVC – Reverse complement of DNA
+
+GC – GC content calculation
+
+SUBS – Motif search in DNA
+
+Skills developed:
+
+String manipulation
+
+Pattern matching
+
+Sequence parsing
+
+These operations form the foundation of most bioinformatics pipelines.
+
+2. Basic Algorithms
+
+Introductory algorithmic problems involving recursion and sequence comparison.
+
+Problems:
+
+FIB – Rabbits and recurrence relations
+
+FIBD – Mortal rabbits
+
+HAMM – Hamming distance (point mutation counting)
+
+Skills developed:
+
+Recursion and iterative algorithms
+
+Sequence comparison
+
+Basic computational modeling
+
+3. Bioinformatics-Specific Problems
+
+Problems that begin to incorporate real biological logic.
+
+Problems:
+
+PROT – Translation of RNA into protein
+
+CONS – Consensus sequence and profile matrix
+
+GRPH – Overlap graph construction
+
+ORF – Identification of open reading frames
+
+Skills developed:
+
+Codon table usage
+
+Sequence alignment logic
+
+Graph-based biological relationships
+
+4. Advanced Algorithms
+
+More complex computational problems commonly encountered in sequence analysis.
+
+Problems:
+
+LCSM – Longest shared motif
+
+KMER – k-mer composition
+
+EDIT – Edit distance
+
+Skills developed:
+
+Dynamic programming
+
+Sequence similarity algorithms
+
+Motif discovery
+
 
 Goal of this repo:-
 
@@ -41,23 +133,20 @@ The repository includes solutions from:
 >Sequence analysis tasks
 
 
+Language
 
-Common techniques used:-
-
->Dictionary mapping for biological identifiers
-
->Iterative parsing of FASTA records
-
->String manipulation for nucleotide counting
-
->Use of built-in functions like max(), sorted(), and list comprehensions
-
->Careful handling of floating-point precision when required
-
->No external libraries are used unless explicitly needed by a problem. The objective is to strengthen core problem-solving skills before relying on higher-level bioinformatics toolkits.
-
-More problems will be added progressively.
-All solutions are implemented in Python 3.
+All solutions are implemented in Python.
 
 
+Source
 
+Problems are from:
+
+https://rosalind.info/problems/list-view/
+
+Rosalind is a platform designed to teach bioinformatics through algorithmic problem solving.
+
+Author
+
+Nilesh
+B.Sc Biotechnology Student
