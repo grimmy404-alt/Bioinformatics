@@ -1,7 +1,7 @@
 #Opening the dataset
 
 file= input('Enter file name:')
-with open(file,"r") as f:               #with automatically closes the file
+with open(file,"r") as f:               
     data=f.read().split()
 
 #Storing the integer data in n and k

@@ -79,5 +79,4 @@ When prompted, enter the path to your input file (e.g., `sample_input.txt`).
 
 ---
 
-**Author:** Nilesh  
-**Date Solved:** 2024
+**Author:** Nilesh Ghosh
