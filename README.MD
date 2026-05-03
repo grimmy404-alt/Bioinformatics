@@ -9,10 +9,10 @@ Repository Structure
 
 The repository is divided into four learning stages:
 
-01_sequence_manipulation
-02_basic_algorithms
-03_bioinformatics_specific_problems
-04_advanced_algorithms
+01. Sequence_manipulation
+02. Basic_algorithms
+03. Bioinformatics_specific_problems
+04. Advanced_algorithms
 
 This structure reflects the progression from basic sequence operations to more complex biological and algorithmic problems.
 
